@@ -4,7 +4,9 @@ import { Link } from 'react-router-dom';
 import './Cart.css';
 
 export default function Cart() {
-  const { cart, cartTotal, removeFromCart, updateQuantity, setCartOpen } = useCart();
+  const { cart, cartTotal, removeFromCart, updateQuantity, setCartOpen, cartOpen } = useCart();
+
+  if (!cartOpen) return null;
 
   if (cart.length === 0) {
     return (
