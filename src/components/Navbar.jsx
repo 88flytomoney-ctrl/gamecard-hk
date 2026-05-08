@@ -16,10 +16,10 @@ export default function Navbar() {
         <div className="header">
           <div className="logo_area">
             <Link to="/" className="logo">
-              <img src="/logo.svg" alt="GameCard HK" />
+              <img src="/gamecard-hk/logo.svg" alt="GameCard HK" />
             </Link>
             <div className="slogan">
-              <img src="/slogan.svg" alt="" />
+              <img src="/gamecard-hk/slogan.svg" alt="" />
             </div>
           </div>
 
