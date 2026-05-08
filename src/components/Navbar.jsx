@@ -66,7 +66,7 @@ export default function Navbar() {
               <li className="space" />
               <li>
                 <Link to="/">
-                  <img src="https://i.imgur.com/placeholder.png" alt="首頁" />
+                  <img src="/gamecard-hk/home-icon.svg" alt="首頁" />
                 </Link>
               </li>
             </ul>
